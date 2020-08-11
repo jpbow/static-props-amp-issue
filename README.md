@@ -2,7 +2,8 @@
 
 Using `getStaticProps` causes the AMP version of pages to be served (when deployed to Vercel) when in hybrid AMP mode.
 
-I expect to always see the non-AMP version of the page in hybrid mode.
+I expect to always see the non-AMP version of the page in hybrid mode when visiting the site directly. 
+Only search engines should be getting served the AMP version of the page.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
